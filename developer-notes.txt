@@ -1,0 +1,105 @@
+
+git URL:
+
+https://github.com/laytonf/serverless-stack-2-api.git
+
+https://github.com/laytonf/serverless-stack-2-client.git
+
+---------------------------------------------------------
+DEV:
+
+us-east-1_Mj2Iv2L2a
+
+Stack Outputs
+AttachmentsBucketName: notes-app2-api-dev-attachmentsbucket-8q6biy85ajei
+UserPoolClientId: 2ajndpalir1mhvctk43spger2p
+UserPoolId: us-east-1_Mj2Iv2L2a
+DeleteLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-delete:1
+CreateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-create:1
+GetLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-get:1
+UpdateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-update:1
+IdentityPoolId: us-east-1:e44ad3a4-fbe6-42f1-898b-27fa7ead019d
+ListLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-list:1
+ServiceEndpoint: https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev
+ServerlessDeploymentBucketName: notes-app2-api-dev-serverlessdeploymentbucket-1mulih6s9zq9q
+
+
+Service Information
+service: notes-app2-api
+stage: dev
+region: us-east-1
+stack: notes-app2-api-dev
+resources: 49
+api keys:
+ None
+endpoints:
+ POST - https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev/notes
+ GET - https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev/notes/{id}
+ GET - https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev/notes
+ PUT - https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev/notes/{id}
+ DELETE - https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev/notes/{id}
+ POST - https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev/billing
+functions:
+ create: notes-app2-api-dev-create
+ get: notes-app2-api-dev-get
+ list: notes-app2-api-dev-list
+ update: notes-app2-api-dev-update
+ delete: notes-app2-api-dev-delete
+ billing: notes-app2-api-dev-billing
+layers:
+ None
+Stack Outputs
+AttachmentsBucketName: notes-app2-api-dev-attachmentsbucket-8q6biy85ajei
+UserPoolClientId: 2ajndpalir1mhvctk43spger2p
+UserPoolId: us-east-1_Mj2Iv2L2a
+DeleteLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-delete:2
+CreateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-create:2
+GetLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-get:2
+UpdateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-update:2
+IdentityPoolId: us-east-1:e44ad3a4-fbe6-42f1-898b-27fa7ead019d
+BillingLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-billing:1
+ListLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-dev-list:2
+ServiceEndpoint: https://51e9f1mt38.execute-api.us-east-1.amazonaws.com/dev
+ServerlessDeploymentBucketName: notes-app2-api-dev-serverlessdeploymentbucket-1mulih6s9zq9q
+-------------------------------------------------------------------------------------------------------------------------
+
+Prod deploy
+
+
+Service Information
+service: notes-app2-api
+stage: prod
+region: us-east-1
+stack: notes-app2-api-prod
+resources: 49
+api keys:
+  None
+endpoints:
+  POST - https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod/notes
+  GET - https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  GET - https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod/notes
+  PUT - https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  DELETE - https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  POST - https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod/billing
+functions:
+  create: notes-app2-api-prod-create
+  get: notes-app2-api-prod-get
+  list: notes-app2-api-prod-list
+  update: notes-app2-api-prod-update
+  delete: notes-app2-api-prod-delete
+  billing: notes-app2-api-prod-billing
+layers:
+  None
+Stack Outputs
+AttachmentsBucketName: notes-app2-api-prod-attachmentsbucket-ybt7t5lc117c
+UserPoolClientId: 31qj0mn2en8pfdktcgc6hu3gla
+UserPoolId: us-east-1_yyaqQuCZN
+DeleteLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-prod-delete:1
+CreateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-prod-create:1
+GetLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-prod-get:1
+UpdateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-prod-update:1
+IdentityPoolId: us-east-1:1d6b8c94-edb6-4688-9d6f-c3995b9ffdc0
+BillingLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-prod-billing:1
+ListLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:541664365145:function:notes-app2-api-prod-list:1
+ServiceEndpoint: https://5frloguqwf.execute-api.us-east-1.amazonaws.com/prod
+ServerlessDeploymentBucketName: notes-app2-api-prod-serverlessdeploymentbucket-1156ro7hr61cn
